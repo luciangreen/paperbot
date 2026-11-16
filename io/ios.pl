@@ -1,0 +1,201 @@
+% 200 recorded inputs and outputs (swipl -g record -t halt io/run.pl writes this; check compares).
+io(1, allocate, [[4, 6, 5], 2690], [717, 1076, 897]).
+io(2, plan, [[sec(discussion, 4, [intro, background, method, results]), sec(results, 2, [intro, background]), sec(method, 1, [intro]), sec(background, 3, [intro]), sec(intro, 4, [])], 2996], [intro-856, method-214, background-642, results-428, discussion-856]).
+io(3, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [ref(3)])]], [claim1, claim2]).
+io(4, allocate, [[2, 5, 8, 0, 0], 967], [129, 322, 516, 0, 0]).
+io(5, plan, [[sec(discussion, 5, [intro, background]), sec(results, 4, [method]), sec(method, 2, []), sec(background, 2, [intro]), sec(intro, 2, [])], 3957], [method-528, results-1055, intro-528, background-527, discussion-1319]).
+io(6, uncited, [[]], []).
+io(7, allocate, [[1, 6, 0, 4, 9, 8], 4198], [150, 900, 0, 600, 1349, 1199]).
+io(8, plan, [[sec(discussion, 4, [intro, method, results]), sec(results, 1, [background]), sec(method, 1, []), sec(background, 3, []), sec(intro, 4, [])], 5051], [method-389, background-1166, results-388, intro-1554, discussion-1554]).
+io(9, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [ref(3)]), claim(claim4, [ref(4)])]], []).
+io(10, allocate, [[5, 6], 3347], [1521, 1826]).
+io(11, plan, [[sec(discussion, 4, []), sec(results, 5, [method]), sec(method, 2, [intro, background]), sec(background, 3, []), sec(intro, 5, [])], 4852], [discussion-1021, background-766, intro-1277, method-511, results-1277]).
+io(12, uncited, [[claim(claim1, []), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, []), claim(claim5, [ref(5)]), claim(claim6, [ref(6)])]], [claim1, claim3, claim4]).
+io(13, allocate, [[5, 5], 3074], [1537, 1537]).
+io(14, plan, [[sec(discussion, 2, [method]), sec(results, 1, [background]), sec(method, 1, []), sec(background, 2, [intro]), sec(intro, 3, [])], 7803], [method-867, discussion-1734, intro-2601, background-1734, results-867]).
+io(15, uncited, [[]], []).
+io(16, allocate, [[9, 2, 2, 2], 1050], [630, 140, 140, 140]).
+io(17, plan, [[sec(discussion, 5, [intro, background, method]), sec(results, 4, [intro]), sec(method, 3, [background]), sec(background, 5, [intro]), sec(intro, 3, [])], 2981], [intro-447, results-596, background-746, method-447, discussion-745]).
+io(18, uncited, [[claim(claim1, [])]], [claim1]).
+io(19, allocate, [[5], 4351], [4351]).
+io(20, plan, [[sec(discussion, 4, [background]), sec(results, 5, [intro]), sec(method, 3, [background]), sec(background, 1, []), sec(intro, 5, [])], 5219], [background-290, discussion-1160, method-870, intro-1450, results-1449]).
+io(21, uncited, [[]], []).
+io(22, allocate, [[5, 5, 4, 0, 1], 356], [119, 118, 95, 0, 24]).
+io(23, plan, [[sec(discussion, 2, [intro, background, method]), sec(results, 5, []), sec(method, 5, []), sec(background, 5, []), sec(intro, 4, [])], 4069], [results-969, method-969, background-969, intro-775, discussion-387]).
+io(24, uncited, [[]], []).
+io(25, allocate, [[6, 7, 1], 2930], [1256, 1465, 209]).
+io(26, plan, [[sec(discussion, 5, [results]), sec(results, 2, [intro, background]), sec(method, 2, [intro]), sec(background, 1, []), sec(intro, 5, [])], 7323], [background-488, intro-2441, results-977, discussion-2441, method-976]).
+io(27, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [])]], [claim1, claim2, claim3, claim5]).
+io(28, allocate, [[8], 4912], [4912]).
+io(29, plan, [[sec(discussion, 1, [background, method, results]), sec(results, 2, [intro, background]), sec(method, 2, [intro]), sec(background, 2, [intro]), sec(intro, 3, [])], 5984], [intro-1795, method-1197, background-1197, results-1197, discussion-598]).
+io(30, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [])]], [claim2]).
+io(31, allocate, [[2, 9, 9, 9, 8, 1], 4131], [218, 978, 978, 978, 870, 109]).
+io(32, plan, [[sec(discussion, 5, []), sec(results, 5, [intro, background]), sec(method, 2, [intro, background]), sec(background, 3, []), sec(intro, 5, [])], 6930], [discussion-1733, background-1040, intro-1732, results-1732, method-693]).
+io(33, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [ref(5)])]], [claim2, claim3]).
+io(34, allocate, [[5, 4, 3], 1576], [657, 525, 394]).
+io(35, plan, [[sec(discussion, 3, [method]), sec(results, 1, [method]), sec(method, 1, [background]), sec(background, 5, []), sec(intro, 2, [])], 5575], [background-2323, method-465, discussion-1394, results-464, intro-929]).
+io(36, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [])]], [claim3]).
+io(37, allocate, [[8, 0], 4987], [4987, 0]).
+io(38, plan, [[sec(discussion, 4, [intro, method]), sec(results, 5, []), sec(method, 5, []), sec(background, 3, []), sec(intro, 1, [])], 1979], [results-550, method-549, background-330, intro-110, discussion-440]).
+io(39, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [ref(3)])]], []).
+io(40, allocate, [[1], 4892], [4892]).
+io(41, plan, [[sec(discussion, 2, [method, results]), sec(results, 1, [intro]), sec(method, 2, [intro]), sec(background, 1, [intro]), sec(intro, 5, [])], 3186], [intro-1448, results-290, method-579, discussion-579, background-290]).
+io(42, uncited, [[claim(claim1, [])]], [claim1]).
+io(43, allocate, [[0], 4431], [0]).
+io(44, plan, [[sec(discussion, 5, [background]), sec(results, 5, [intro]), sec(method, 2, [intro, background]), sec(background, 5, []), sec(intro, 2, [])], 3403], [background-896, discussion-896, intro-358, results-895, method-358]).
+io(45, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, []), claim(claim4, [])]], [claim1, claim2, claim3, claim4]).
+io(46, allocate, [[6, 8, 4, 9, 6, 5], 3099], [489, 653, 326, 734, 489, 408]).
+io(47, plan, [[sec(discussion, 4, [background, results]), sec(results, 2, [intro, method]), sec(method, 2, []), sec(background, 5, []), sec(intro, 3, [])], 4212], [method-527, background-1316, intro-790, results-526, discussion-1053]).
+io(48, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, [ref(3)]), claim(claim4, [ref(4)])]], [claim2]).
+io(49, allocate, [[1, 9, 5, 3, 6, 5], 1553], [53, 482, 268, 161, 321, 268]).
+io(50, plan, [[sec(discussion, 4, []), sec(results, 4, [intro, background, method]), sec(method, 3, []), sec(background, 5, [intro]), sec(intro, 2, [])], 2130], [discussion-473, method-355, intro-237, background-592, results-473]).
+io(51, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [ref(3)])]], []).
+io(52, allocate, [[6, 5, 0, 4, 1], 2685], [1007, 839, 0, 671, 168]).
+io(53, plan, [[sec(discussion, 5, [method, results]), sec(results, 3, [intro, method]), sec(method, 2, []), sec(background, 4, []), sec(intro, 5, [])], 670], [method-71, background-141, intro-176, results-106, discussion-176]).
+io(54, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [])]], [claim1, claim2, claim3]).
+io(55, allocate, [[4, 8], 1136], [379, 757]).
+io(56, plan, [[sec(discussion, 1, [background, method, results]), sec(results, 2, []), sec(method, 4, [intro]), sec(background, 2, [intro]), sec(intro, 1, [])], 7968], [results-1594, intro-797, method-3187, background-1593, discussion-797]).
+io(57, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [])]], [claim2]).
+io(58, allocate, [[3, 1], 3077], [2308, 769]).
+io(59, plan, [[sec(discussion, 4, []), sec(results, 3, [intro]), sec(method, 4, [intro]), sec(background, 4, [intro]), sec(intro, 2, [])], 6687], [discussion-1574, intro-787, results-1180, method-1573, background-1573]).
+io(60, uncited, [[claim(claim1, [ref(1)])]], []).
+io(61, allocate, [[5, 4], 1066], [592, 474]).
+io(62, plan, [[sec(discussion, 5, []), sec(results, 1, [intro, background]), sec(method, 3, [intro]), sec(background, 1, []), sec(intro, 1, [])], 4567], [discussion-2076, background-415, intro-415, results-415, method-1246]).
+io(63, uncited, [[]], []).
+io(64, allocate, [[6], 1526], [1526]).
+io(65, plan, [[sec(discussion, 5, [method]), sec(results, 4, [method]), sec(method, 2, []), sec(background, 4, []), sec(intro, 5, [])], 3696], [method-370, discussion-924, results-739, background-739, intro-924]).
+io(66, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [ref(5)])]], [claim3]).
+io(67, allocate, [[6, 8, 8, 8, 0], 4146], [829, 1106, 1106, 1105, 0]).
+io(68, plan, [[sec(discussion, 2, [intro, background, method]), sec(results, 5, []), sec(method, 4, []), sec(background, 5, []), sec(intro, 2, [])], 647], [results-180, method-144, background-179, intro-72, discussion-72]).
+io(69, uncited, [[]], []).
+io(70, allocate, [[2, 0, 6, 6, 0, 5], 4103], [432, 0, 1296, 1295, 0, 1080]).
+io(71, plan, [[sec(discussion, 2, [method]), sec(results, 3, [background, method]), sec(method, 3, []), sec(background, 1, []), sec(intro, 5, [])], 7120], [method-1526, discussion-1017, background-508, results-1526, intro-2543]).
+io(72, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, [ref(3)])]], [claim2]).
+io(73, allocate, [[9, 1, 6, 5], 2042], [875, 97, 584, 486]).
+io(74, plan, [[sec(discussion, 1, [background, method]), sec(results, 3, [intro, background]), sec(method, 5, [intro, background]), sec(background, 4, [intro]), sec(intro, 5, [])], 7360], [intro-2044, background-1636, results-1227, method-2044, discussion-409]).
+io(75, uncited, [[claim(claim1, []), claim(claim2, [ref(2)])]], [claim1]).
+io(76, allocate, [[2, 8, 8, 4], 97], [9, 35, 35, 18]).
+io(77, plan, [[sec(discussion, 4, [results]), sec(results, 3, []), sec(method, 3, [intro]), sec(background, 3, []), sec(intro, 2, [])], 2420], [results-484, discussion-645, background-484, intro-323, method-484]).
+io(78, uncited, [[claim(claim1, []), claim(claim2, [ref(2)]), claim(claim3, [ref(3)])]], [claim1]).
+io(79, allocate, [[7, 5, 3], 2887], [1347, 962, 578]).
+io(80, plan, [[sec(discussion, 5, [intro, method]), sec(results, 4, []), sec(method, 4, []), sec(background, 4, []), sec(intro, 2, [])], 1084], [results-228, method-228, background-228, intro-114, discussion-286]).
+io(81, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)])]], []).
+io(82, allocate, [[1, 2, 5], 2429], [304, 607, 1518]).
+io(83, plan, [[sec(discussion, 1, []), sec(results, 5, [method]), sec(method, 2, [intro, background]), sec(background, 3, [intro]), sec(intro, 2, [])], 7821], [discussion-602, intro-1203, background-1805, method-1203, results-3008]).
+io(84, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, []), claim(claim4, [])]], [claim1, claim2, claim3, claim4]).
+io(85, allocate, [[4, 0, 6, 3, 7], 2450], [490, 0, 735, 368, 857]).
+io(86, plan, [[sec(discussion, 1, [intro, method, results]), sec(results, 2, [intro]), sec(method, 3, [intro, background]), sec(background, 4, []), sec(intro, 4, [])], 7065], [background-2019, intro-2018, results-1009, method-1514, discussion-505]).
+io(87, uncited, [[claim(claim1, []), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [ref(5)]), claim(claim6, [ref(6)])]], [claim1, claim3]).
+io(88, allocate, [[3, 6, 5, 0, 6, 4], 4734], [592, 1184, 986, 0, 1183, 789]).
+io(89, plan, [[sec(discussion, 2, [intro]), sec(results, 4, []), sec(method, 3, []), sec(background, 2, [intro]), sec(intro, 1, [])], 5640], [results-1880, method-1410, intro-470, discussion-940, background-940]).
+io(90, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [ref(5)])]], [claim3]).
+io(91, allocate, [[6, 1, 1, 7, 6, 7], 579], [124, 21, 20, 145, 124, 145]).
+io(92, plan, [[sec(discussion, 5, [intro]), sec(results, 5, [method]), sec(method, 3, [background]), sec(background, 1, []), sec(intro, 1, [])], 6576], [background-439, method-1315, results-2192, intro-438, discussion-2192]).
+io(93, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [])]], [claim2]).
+io(94, allocate, [[2, 4, 4], 868], [174, 347, 347]).
+io(95, plan, [[sec(discussion, 5, [intro, method, results]), sec(results, 2, [method]), sec(method, 5, [intro]), sec(background, 4, []), sec(intro, 5, [])], 6859], [background-1307, intro-1633, method-1633, results-653, discussion-1633]).
+io(96, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [ref(3)]), claim(claim4, [ref(4)])]], [claim1, claim2]).
+io(97, allocate, [[2], 1164], [1164]).
+io(98, plan, [[sec(discussion, 2, [background]), sec(results, 3, [background]), sec(method, 1, []), sec(background, 4, []), sec(intro, 5, [])], 1407], [method-94, background-375, discussion-188, results-281, intro-469]).
+io(99, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [ref(3)]), claim(claim4, []), claim(claim5, [ref(5)]), claim(claim6, [])]], [claim1, claim2, claim4, claim6]).
+io(100, allocate, [[3], 2047], [2047]).
+io(101, plan, [[sec(discussion, 4, [intro]), sec(results, 1, [intro]), sec(method, 5, [background]), sec(background, 5, [intro]), sec(intro, 1, [])], 7654], [intro-478, discussion-1914, results-478, background-2392, method-2392]).
+io(102, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [])]], [claim3]).
+io(103, allocate, [[8, 8], 2309], [1155, 1154]).
+io(104, plan, [[sec(discussion, 2, [background, method]), sec(results, 2, [method]), sec(method, 5, [intro, background]), sec(background, 3, []), sec(intro, 3, [])], 1638], [background-328, intro-328, method-546, discussion-218, results-218]).
+io(105, uncited, [[claim(claim1, []), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, []), claim(claim5, []), claim(claim6, [])]], [claim1, claim3, claim4, claim5, claim6]).
+io(106, allocate, [[7], 1641], [1641]).
+io(107, plan, [[sec(discussion, 1, [intro, results]), sec(results, 1, [intro]), sec(method, 3, []), sec(background, 2, []), sec(intro, 3, [])], 7334], [method-2200, background-1467, intro-2200, results-734, discussion-733]).
+io(108, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, []), claim(claim5, [ref(5)])]], [claim3, claim4]).
+io(109, allocate, [[9, 3, 7, 0], 1472], [697, 233, 542, 0]).
+io(110, plan, [[sec(discussion, 4, [intro, results]), sec(results, 1, []), sec(method, 3, []), sec(background, 4, []), sec(intro, 4, [])], 6064], [results-379, method-1137, background-1516, intro-1516, discussion-1516]).
+io(111, uncited, [[claim(claim1, [ref(1)])]], []).
+io(112, allocate, [[8], 839], [839]).
+io(113, plan, [[sec(discussion, 1, [background]), sec(results, 5, [background]), sec(method, 5, [background]), sec(background, 5, [intro]), sec(intro, 4, [])], 5801], [intro-1160, background-1451, discussion-290, results-1450, method-1450]).
+io(114, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [ref(5)])]], [claim1, claim2, claim3]).
+io(115, allocate, [[4, 3], 3326], [1901, 1425]).
+io(116, plan, [[sec(discussion, 2, []), sec(results, 3, [background]), sec(method, 4, []), sec(background, 1, []), sec(intro, 3, [])], 5740], [discussion-883, method-1766, background-441, results-1325, intro-1325]).
+io(117, uncited, [[claim(claim1, []), claim(claim2, [])]], [claim1, claim2]).
+io(118, allocate, [[0], 3025], [0]).
+io(119, plan, [[sec(discussion, 3, [intro, background]), sec(results, 4, [background, method]), sec(method, 1, [background]), sec(background, 1, [intro]), sec(intro, 2, [])], 7597], [intro-1381, background-691, discussion-2072, method-691, results-2762]).
+io(120, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [ref(3)]), claim(claim4, [ref(4)])]], [claim1, claim2]).
+io(121, allocate, [[6, 6], 3701], [1851, 1850]).
+io(122, plan, [[sec(discussion, 5, [intro, background]), sec(results, 1, [background]), sec(method, 4, []), sec(background, 1, []), sec(intro, 3, [])], 5182], [method-1481, background-370, results-370, intro-1110, discussion-1851]).
+io(123, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [])]], [claim2]).
+io(124, allocate, [[4, 6, 2, 0, 1, 4], 780], [184, 275, 92, 0, 46, 183]).
+io(125, plan, [[sec(discussion, 1, []), sec(results, 3, [intro]), sec(method, 1, [intro]), sec(background, 4, [intro]), sec(intro, 4, [])], 7929], [discussion-610, intro-2440, results-1830, method-610, background-2439]).
+io(126, uncited, [[claim(claim1, []), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, [ref(4)])]], [claim1, claim3]).
+io(127, allocate, [[4, 6, 2], 3545], [1182, 1772, 591]).
+io(128, plan, [[sec(discussion, 2, [results]), sec(results, 2, [intro, method]), sec(method, 4, []), sec(background, 3, []), sec(intro, 1, [])], 6558], [method-2186, background-1640, intro-546, results-1093, discussion-1093]).
+io(129, uncited, [[claim(claim1, []), claim(claim2, [ref(2)])]], [claim1]).
+io(130, allocate, [[4, 8, 9], 2011], [383, 766, 862]).
+io(131, plan, [[sec(discussion, 1, [intro, background]), sec(results, 5, [background, method]), sec(method, 2, []), sec(background, 3, [intro]), sec(intro, 3, [])], 986], [method-141, intro-211, background-211, discussion-71, results-352]).
+io(132, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [ref(3)])]], []).
+io(133, allocate, [[1, 5, 6, 9, 3, 9], 2216], [67, 336, 403, 604, 202, 604]).
+io(134, plan, [[sec(discussion, 1, [intro]), sec(results, 1, []), sec(method, 2, [intro]), sec(background, 1, []), sec(intro, 3, [])], 6362], [results-795, background-795, intro-2386, discussion-795, method-1591]).
+io(135, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [ref(3)])]], [claim1, claim2]).
+io(136, allocate, [[4], 1684], [1684]).
+io(137, plan, [[sec(discussion, 1, [intro, results]), sec(results, 5, [method]), sec(method, 1, [intro]), sec(background, 3, []), sec(intro, 2, [])], 7491], [background-1873, intro-1249, method-624, results-3121, discussion-624]).
+io(138, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [ref(3)]), claim(claim4, [ref(4)]), claim(claim5, [ref(5)])]], []).
+io(139, allocate, [[7, 1], 4612], [4036, 576]).
+io(140, plan, [[sec(discussion, 1, [intro]), sec(results, 1, [intro, method]), sec(method, 4, [intro, background]), sec(background, 3, []), sec(intro, 5, [])], 5295], [background-1135, intro-1891, discussion-378, method-1513, results-378]).
+io(141, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, [ref(3)]), claim(claim4, [])]], [claim4]).
+io(142, allocate, [[8, 8, 9, 2], 991], [294, 294, 330, 73]).
+io(143, plan, [[sec(discussion, 4, [intro, method, results]), sec(results, 1, [background]), sec(method, 2, []), sec(background, 4, [intro]), sec(intro, 2, [])], 6834], [method-1051, intro-1051, background-2103, results-526, discussion-2103]).
+io(144, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)])]], []).
+io(145, allocate, [[6, 7, 5], 3352], [1117, 1304, 931]).
+io(146, plan, [[sec(discussion, 1, [intro, background, method, results]), sec(results, 3, []), sec(method, 1, []), sec(background, 4, [intro]), sec(intro, 4, [])], 2227], [results-514, method-172, intro-685, background-685, discussion-171]).
+io(147, uncited, [[claim(claim1, [ref(1)])]], []).
+io(148, allocate, [[9, 9, 8, 9, 7, 7], 3910], [718, 718, 638, 718, 559, 559]).
+io(149, plan, [[sec(discussion, 4, []), sec(results, 4, [intro, method]), sec(method, 3, []), sec(background, 2, []), sec(intro, 4, [])], 6477], [discussion-1524, method-1143, background-762, intro-1524, results-1524]).
+io(150, uncited, [[claim(claim1, []), claim(claim2, [ref(2)]), claim(claim3, [ref(3)]), claim(claim4, []), claim(claim5, [ref(5)]), claim(claim6, [])]], [claim1, claim4, claim6]).
+io(151, allocate, [[0, 4], 490], [0, 490]).
+io(152, plan, [[sec(discussion, 3, []), sec(results, 2, [background, method]), sec(method, 2, [intro]), sec(background, 2, []), sec(intro, 1, [])], 624], [discussion-187, background-125, intro-62, method-125, results-125]).
+io(153, uncited, [[]], []).
+io(154, allocate, [[9, 7, 9], 3606], [1298, 1010, 1298]).
+io(155, plan, [[sec(discussion, 2, [background, method]), sec(results, 4, [background]), sec(method, 4, []), sec(background, 3, []), sec(intro, 2, [])], 5640], [method-1504, background-1128, discussion-752, results-1504, intro-752]).
+io(156, uncited, [[claim(claim1, []), claim(claim2, []), claim(claim3, [ref(3)]), claim(claim4, [])]], [claim1, claim2, claim4]).
+io(157, allocate, [[3, 9, 1, 7, 7, 5], 1354], [127, 381, 42, 296, 296, 212]).
+io(158, plan, [[sec(discussion, 3, [intro]), sec(results, 3, [method]), sec(method, 3, [background]), sec(background, 4, []), sec(intro, 1, [])], 5544], [background-1584, method-1188, results-1188, intro-396, discussion-1188]).
+io(159, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)])]], []).
+io(160, allocate, [[3, 3, 4, 5, 3, 6], 2647], [331, 331, 441, 551, 331, 662]).
+io(161, plan, [[sec(discussion, 3, [results]), sec(results, 2, [background, method]), sec(method, 3, []), sec(background, 1, [intro]), sec(intro, 4, [])], 1408], [method-325, intro-433, background-108, results-217, discussion-325]).
+io(162, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)])]], []).
+io(163, allocate, [[9], 4372], [4372]).
+io(164, plan, [[sec(discussion, 1, [background]), sec(results, 3, [background]), sec(method, 2, [intro]), sec(background, 4, [intro]), sec(intro, 2, [])], 2308], [intro-385, method-385, background-769, discussion-192, results-577]).
+io(165, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, []), claim(claim6, [])]], [claim2, claim3, claim5, claim6]).
+io(166, allocate, [[9, 4, 6, 4, 1, 4], 1754], [564, 251, 376, 250, 63, 250]).
+io(167, plan, [[sec(discussion, 4, [intro, method, results]), sec(results, 1, []), sec(method, 4, []), sec(background, 5, [intro]), sec(intro, 3, [])], 1781], [results-105, method-419, intro-314, discussion-419, background-524]).
+io(168, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, [])]], [claim2, claim3]).
+io(169, allocate, [[1, 3, 5], 2712], [301, 904, 1507]).
+io(170, plan, [[sec(discussion, 2, [background]), sec(results, 5, [intro, method]), sec(method, 2, [intro, background]), sec(background, 5, [intro]), sec(intro, 5, [])], 5811], [intro-1529, background-1529, discussion-612, method-612, results-1529]).
+io(171, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [])]], [claim2]).
+io(172, allocate, [[0, 1, 2, 0, 9, 8], 1498], [0, 75, 150, 0, 674, 599]).
+io(173, plan, [[sec(discussion, 3, [results]), sec(results, 4, [intro, method]), sec(method, 5, [intro, background]), sec(background, 4, []), sec(intro, 5, [])], 5494], [background-1047, intro-1308, method-1308, results-1046, discussion-785]).
+io(174, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)]), claim(claim3, []), claim(claim4, [ref(4)]), claim(claim5, [])]], [claim3, claim5]).
+io(175, allocate, [[1, 7, 3, 4], 317], [21, 148, 63, 85]).
+io(176, plan, [[sec(discussion, 5, []), sec(results, 2, [background, method]), sec(method, 3, [intro, background]), sec(background, 1, [intro]), sec(intro, 5, [])], 6308], [discussion-1971, intro-1971, background-394, method-1183, results-789]).
+io(177, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, [])]], [claim2, claim3]).
+io(178, allocate, [[9, 9, 7, 3, 3, 3], 3905], [1034, 1034, 804, 345, 344, 344]).
+io(179, plan, [[sec(discussion, 2, [method]), sec(results, 1, [intro, background]), sec(method, 3, [background]), sec(background, 5, [intro]), sec(intro, 2, [])], 4245], [intro-653, background-1633, results-326, method-980, discussion-653]).
+io(180, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)])]], []).
+io(181, allocate, [[8, 6, 9], 205], [71, 54, 80]).
+io(182, plan, [[sec(discussion, 2, [intro, method, results]), sec(results, 1, [background]), sec(method, 1, [background]), sec(background, 5, [intro]), sec(intro, 5, [])], 6520], [intro-2329, background-2328, results-466, method-466, discussion-931]).
+io(183, uncited, [[claim(claim1, [ref(1)]), claim(claim2, []), claim(claim3, [ref(3)]), claim(claim4, [ref(4)]), claim(claim5, [ref(5)])]], [claim2]).
+io(184, allocate, [[7, 6, 1, 6], 1712], [599, 514, 86, 513]).
+io(185, plan, [[sec(discussion, 4, [method]), sec(results, 3, []), sec(method, 2, []), sec(background, 1, []), sec(intro, 4, [])], 5981], [results-1282, method-854, discussion-1709, background-427, intro-1709]).
+io(186, uncited, [[]], []).
+io(187, allocate, [[9, 3, 0, 1, 3, 6], 1205], [493, 164, 0, 55, 164, 329]).
+io(188, plan, [[sec(discussion, 2, [background]), sec(results, 5, [intro]), sec(method, 5, []), sec(background, 2, []), sec(intro, 3, [])], 6203], [method-1824, background-730, discussion-730, intro-1095, results-1824]).
+io(189, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [])]], [claim2]).
+io(190, allocate, [[2, 7, 6, 0, 1, 1], 4229], [497, 1741, 1493, 0, 249, 249]).
+io(191, plan, [[sec(discussion, 5, [intro, results]), sec(results, 1, []), sec(method, 1, [intro, background]), sec(background, 2, [intro]), sec(intro, 5, [])], 4002], [results-286, intro-1429, discussion-1429, background-572, method-286]).
+io(192, uncited, [[]], []).
+io(193, allocate, [[8, 4, 3, 8, 8, 4], 466], [107, 53, 40, 107, 106, 53]).
+io(194, plan, [[sec(discussion, 5, [method]), sec(results, 3, [background, method]), sec(method, 1, [background]), sec(background, 3, [intro]), sec(intro, 5, [])], 6308], [intro-1856, background-1113, method-371, discussion-1855, results-1113]).
+io(195, uncited, [[]], []).
+io(196, allocate, [[0, 6, 2, 3], 12], [0, 7, 2, 3]).
+io(197, plan, [[sec(discussion, 5, [method, results]), sec(results, 2, [intro]), sec(method, 3, [intro]), sec(background, 1, [intro]), sec(intro, 5, [])], 2265], [intro-708, results-283, method-425, discussion-708, background-141]).
+io(198, uncited, [[claim(claim1, [ref(1)]), claim(claim2, [ref(2)])]], []).
+io(199, allocate, [[6, 2, 0, 3, 4], 3896], [1558, 520, 0, 779, 1039]).
+io(200, plan, [[sec(discussion, 3, []), sec(results, 3, [method]), sec(method, 1, []), sec(background, 4, []), sec(intro, 4, [])], 6955], [discussion-1391, method-464, results-1391, background-1855, intro-1854]).
