@@ -9,19 +9,19 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 4. allocate([2,5,8,0,0], 967)
    => [129,322,516,0,0]
 5. plan([sec(discussion,5,[intro,background]),sec(results,4,[method]),sec(method,2,[]),sec(background,2,[intro]),sec(intro,2,[])], 3957)
-   => [method-528,results-1055,intro-528,background-527,discussion-1319]
+   => [method-528,results-1056,intro-527,background-527,discussion-1319]
 6. uncited([])
    => []
 7. allocate([1,6,0,4,9,8], 4198)
    => [150,900,0,600,1349,1199]
 8. plan([sec(discussion,4,[intro,method,results]),sec(results,1,[background]),sec(method,1,[]),sec(background,3,[]),sec(intro,4,[])], 5051)
-   => [method-389,background-1166,results-388,intro-1554,discussion-1554]
+   => [method-388,background-1166,results-388,intro-1555,discussion-1554]
 9. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[ref(3)]),claim(claim4,[ref(4)])])
    => []
 10. allocate([5,6], 3347)
    => [1521,1826]
 11. plan([sec(discussion,4,[]),sec(results,5,[method]),sec(method,2,[intro,background]),sec(background,3,[]),sec(intro,5,[])], 4852)
-   => [discussion-1021,background-766,intro-1277,method-511,results-1277]
+   => [discussion-1022,background-766,intro-1277,method-510,results-1277]
 12. uncited([claim(claim1,[]),claim(claim2,[ref(2)]),claim(claim3,[]),claim(claim4,[]),claim(claim5,[ref(5)]),claim(claim6,[ref(6)])])
    => [claim1,claim3,claim4]
 13. allocate([5,5], 3074)
@@ -43,7 +43,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 21. uncited([])
    => []
 22. allocate([5,5,4,0,1], 356)
-   => [119,118,95,0,24]
+   => [119,119,95,0,23]
 23. plan([sec(discussion,2,[intro,background,method]),sec(results,5,[]),sec(method,5,[]),sec(background,5,[]),sec(intro,4,[])], 4069)
    => [results-969,method-969,background-969,intro-775,discussion-387]
 24. uncited([])
@@ -61,9 +61,9 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 30. uncited([claim(claim1,[ref(1)]),claim(claim2,[])])
    => [claim2]
 31. allocate([2,9,9,9,8,1], 4131)
-   => [218,978,978,978,870,109]
+   => [217,979,979,978,870,108]
 32. plan([sec(discussion,5,[]),sec(results,5,[intro,background]),sec(method,2,[intro,background]),sec(background,3,[]),sec(intro,5,[])], 6930)
-   => [discussion-1733,background-1040,intro-1732,results-1732,method-693]
+   => [discussion-1733,background-1039,intro-1733,results-1732,method-693]
 33. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[]),claim(claim4,[ref(4)]),claim(claim5,[ref(5)])])
    => [claim2,claim3]
 34. allocate([5,4,3], 1576)
@@ -75,13 +75,13 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 37. allocate([8,0], 4987)
    => [4987,0]
 38. plan([sec(discussion,4,[intro,method]),sec(results,5,[]),sec(method,5,[]),sec(background,3,[]),sec(intro,1,[])], 1979)
-   => [results-550,method-549,background-330,intro-110,discussion-440]
+   => [results-550,method-550,background-330,intro-110,discussion-439]
 39. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[ref(3)])])
    => []
 40. allocate([1], 4892)
    => [4892]
 41. plan([sec(discussion,2,[method,results]),sec(results,1,[intro]),sec(method,2,[intro]),sec(background,1,[intro]),sec(intro,5,[])], 3186)
-   => [intro-1448,results-290,method-579,discussion-579,background-290]
+   => [intro-1449,results-290,method-579,discussion-579,background-289]
 42. uncited([claim(claim1,[])])
    => [claim1]
 43. allocate([0], 4431)
@@ -93,25 +93,25 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 46. allocate([6,8,4,9,6,5], 3099)
    => [489,653,326,734,489,408]
 47. plan([sec(discussion,4,[background,results]),sec(results,2,[intro,method]),sec(method,2,[]),sec(background,5,[]),sec(intro,3,[])], 4212)
-   => [method-527,background-1316,intro-790,results-526,discussion-1053]
+   => [method-526,background-1317,intro-790,results-526,discussion-1053]
 48. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[ref(3)]),claim(claim4,[ref(4)])])
    => [claim2]
 49. allocate([1,9,5,3,6,5], 1553)
    => [53,482,268,161,321,268]
 50. plan([sec(discussion,4,[]),sec(results,4,[intro,background,method]),sec(method,3,[]),sec(background,5,[intro]),sec(intro,2,[])], 2130)
-   => [discussion-473,method-355,intro-237,background-592,results-473]
+   => [discussion-474,method-355,intro-236,background-592,results-473]
 51. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[ref(3)])])
    => []
 52. allocate([6,5,0,4,1], 2685)
-   => [1007,839,0,671,168]
+   => [1007,840,0,671,167]
 53. plan([sec(discussion,5,[method,results]),sec(results,3,[intro,method]),sec(method,2,[]),sec(background,4,[]),sec(intro,5,[])], 670)
-   => [method-71,background-141,intro-176,results-106,discussion-176]
+   => [method-70,background-141,intro-177,results-106,discussion-176]
 54. uncited([claim(claim1,[]),claim(claim2,[]),claim(claim3,[])])
    => [claim1,claim2,claim3]
 55. allocate([4,8], 1136)
    => [379,757]
 56. plan([sec(discussion,1,[background,method,results]),sec(results,2,[]),sec(method,4,[intro]),sec(background,2,[intro]),sec(intro,1,[])], 7968)
-   => [results-1594,intro-797,method-3187,background-1593,discussion-797]
+   => [results-1594,intro-797,method-3188,background-1593,discussion-796]
 57. uncited([claim(claim1,[ref(1)]),claim(claim2,[])])
    => [claim2]
 58. allocate([3,1], 3077)
@@ -135,43 +135,43 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 67. allocate([6,8,8,8,0], 4146)
    => [829,1106,1106,1105,0]
 68. plan([sec(discussion,2,[intro,background,method]),sec(results,5,[]),sec(method,4,[]),sec(background,5,[]),sec(intro,2,[])], 647)
-   => [results-180,method-144,background-179,intro-72,discussion-72]
+   => [results-180,method-144,background-180,intro-72,discussion-71]
 69. uncited([])
    => []
 70. allocate([2,0,6,6,0,5], 4103)
-   => [432,0,1296,1295,0,1080]
+   => [432,0,1296,1296,0,1079]
 71. plan([sec(discussion,2,[method]),sec(results,3,[background,method]),sec(method,3,[]),sec(background,1,[]),sec(intro,5,[])], 7120)
    => [method-1526,discussion-1017,background-508,results-1526,intro-2543]
 72. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[ref(3)])])
    => [claim2]
 73. allocate([9,1,6,5], 2042)
-   => [875,97,584,486]
+   => [876,97,583,486]
 74. plan([sec(discussion,1,[background,method]),sec(results,3,[intro,background]),sec(method,5,[intro,background]),sec(background,4,[intro]),sec(intro,5,[])], 7360)
-   => [intro-2044,background-1636,results-1227,method-2044,discussion-409]
+   => [intro-2045,background-1636,results-1227,method-2044,discussion-408]
 75. uncited([claim(claim1,[]),claim(claim2,[ref(2)])])
    => [claim1]
 76. allocate([2,8,8,4], 97)
-   => [9,35,35,18]
+   => [9,36,35,17]
 77. plan([sec(discussion,4,[results]),sec(results,3,[]),sec(method,3,[intro]),sec(background,3,[]),sec(intro,2,[])], 2420)
-   => [results-484,discussion-645,background-484,intro-323,method-484]
+   => [results-484,discussion-646,background-484,intro-322,method-484]
 78. uncited([claim(claim1,[]),claim(claim2,[ref(2)]),claim(claim3,[ref(3)])])
    => [claim1]
 79. allocate([7,5,3], 2887)
-   => [1347,962,578]
+   => [1348,962,577]
 80. plan([sec(discussion,5,[intro,method]),sec(results,4,[]),sec(method,4,[]),sec(background,4,[]),sec(intro,2,[])], 1084)
    => [results-228,method-228,background-228,intro-114,discussion-286]
 81. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)])])
    => []
 82. allocate([1,2,5], 2429)
-   => [304,607,1518]
+   => [303,607,1519]
 83. plan([sec(discussion,1,[]),sec(results,5,[method]),sec(method,2,[intro,background]),sec(background,3,[intro]),sec(intro,2,[])], 7821)
-   => [discussion-602,intro-1203,background-1805,method-1203,results-3008]
+   => [discussion-601,intro-1203,background-1805,method-1203,results-3009]
 84. uncited([claim(claim1,[]),claim(claim2,[]),claim(claim3,[]),claim(claim4,[])])
    => [claim1,claim2,claim3,claim4]
 85. allocate([4,0,6,3,7], 2450)
-   => [490,0,735,368,857]
+   => [490,0,735,367,858]
 86. plan([sec(discussion,1,[intro,method,results]),sec(results,2,[intro]),sec(method,3,[intro,background]),sec(background,4,[]),sec(intro,4,[])], 7065)
-   => [background-2019,intro-2018,results-1009,method-1514,discussion-505]
+   => [background-2019,intro-2019,results-1009,method-1514,discussion-504]
 87. uncited([claim(claim1,[]),claim(claim2,[ref(2)]),claim(claim3,[]),claim(claim4,[ref(4)]),claim(claim5,[ref(5)]),claim(claim6,[ref(6)])])
    => [claim1,claim3]
 88. allocate([3,6,5,0,6,4], 4734)
@@ -181,9 +181,9 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 90. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[]),claim(claim4,[ref(4)]),claim(claim5,[ref(5)])])
    => [claim3]
 91. allocate([6,1,1,7,6,7], 579)
-   => [124,21,20,145,124,145]
+   => [125,20,20,145,124,145]
 92. plan([sec(discussion,5,[intro]),sec(results,5,[method]),sec(method,3,[background]),sec(background,1,[]),sec(intro,1,[])], 6576)
-   => [background-439,method-1315,results-2192,intro-438,discussion-2192]
+   => [background-438,method-1316,results-2192,intro-438,discussion-2192]
 93. uncited([claim(claim1,[ref(1)]),claim(claim2,[])])
    => [claim2]
 94. allocate([2,4,4], 868)
@@ -195,7 +195,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 97. allocate([2], 1164)
    => [1164]
 98. plan([sec(discussion,2,[background]),sec(results,3,[background]),sec(method,1,[]),sec(background,4,[]),sec(intro,5,[])], 1407)
-   => [method-94,background-375,discussion-188,results-281,intro-469]
+   => [method-94,background-376,discussion-187,results-281,intro-469]
 99. uncited([claim(claim1,[]),claim(claim2,[]),claim(claim3,[ref(3)]),claim(claim4,[]),claim(claim5,[ref(5)]),claim(claim6,[])])
    => [claim1,claim2,claim4,claim6]
 100. allocate([3], 2047)
@@ -213,11 +213,11 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 106. allocate([7], 1641)
    => [1641]
 107. plan([sec(discussion,1,[intro,results]),sec(results,1,[intro]),sec(method,3,[]),sec(background,2,[]),sec(intro,3,[])], 7334)
-   => [method-2200,background-1467,intro-2200,results-734,discussion-733]
+   => [method-2201,background-1467,intro-2200,results-733,discussion-733]
 108. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[]),claim(claim4,[]),claim(claim5,[ref(5)])])
    => [claim3,claim4]
 109. allocate([9,3,7,0], 1472)
-   => [697,233,542,0]
+   => [698,232,542,0]
 110. plan([sec(discussion,4,[intro,results]),sec(results,1,[]),sec(method,3,[]),sec(background,4,[]),sec(intro,4,[])], 6064)
    => [results-379,method-1137,background-1516,intro-1516,discussion-1516]
 111. uncited([claim(claim1,[ref(1)])])
@@ -237,7 +237,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 118. allocate([0], 3025)
    => [0]
 119. plan([sec(discussion,3,[intro,background]),sec(results,4,[background,method]),sec(method,1,[background]),sec(background,1,[intro]),sec(intro,2,[])], 7597)
-   => [intro-1381,background-691,discussion-2072,method-691,results-2762]
+   => [intro-1382,background-690,discussion-2072,method-690,results-2763]
 120. uncited([claim(claim1,[]),claim(claim2,[]),claim(claim3,[ref(3)]),claim(claim4,[ref(4)])])
    => [claim1,claim2]
 121. allocate([6,6], 3701)
@@ -247,13 +247,13 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 123. uncited([claim(claim1,[ref(1)]),claim(claim2,[])])
    => [claim2]
 124. allocate([4,6,2,0,1,4], 780)
-   => [184,275,92,0,46,183]
+   => [184,276,92,0,45,183]
 125. plan([sec(discussion,1,[]),sec(results,3,[intro]),sec(method,1,[intro]),sec(background,4,[intro]),sec(intro,4,[])], 7929)
    => [discussion-610,intro-2440,results-1830,method-610,background-2439]
 126. uncited([claim(claim1,[]),claim(claim2,[ref(2)]),claim(claim3,[]),claim(claim4,[ref(4)])])
    => [claim1,claim3]
 127. allocate([4,6,2], 3545)
-   => [1182,1772,591]
+   => [1182,1773,590]
 128. plan([sec(discussion,2,[results]),sec(results,2,[intro,method]),sec(method,4,[]),sec(background,3,[]),sec(intro,1,[])], 6558)
    => [method-2186,background-1640,intro-546,results-1093,discussion-1093]
 129. uncited([claim(claim1,[]),claim(claim2,[ref(2)])])
@@ -261,11 +261,11 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 130. allocate([4,8,9], 2011)
    => [383,766,862]
 131. plan([sec(discussion,1,[intro,background]),sec(results,5,[background,method]),sec(method,2,[]),sec(background,3,[intro]),sec(intro,3,[])], 986)
-   => [method-141,intro-211,background-211,discussion-71,results-352]
+   => [method-141,intro-211,background-211,discussion-70,results-353]
 132. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[ref(3)])])
    => []
 133. allocate([1,5,6,9,3,9], 2216)
-   => [67,336,403,604,202,604]
+   => [67,336,403,605,201,604]
 134. plan([sec(discussion,1,[intro]),sec(results,1,[]),sec(method,2,[intro]),sec(background,1,[]),sec(intro,3,[])], 6362)
    => [results-795,background-795,intro-2386,discussion-795,method-1591]
 135. uncited([claim(claim1,[]),claim(claim2,[]),claim(claim3,[ref(3)])])
@@ -273,7 +273,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 136. allocate([4], 1684)
    => [1684]
 137. plan([sec(discussion,1,[intro,results]),sec(results,5,[method]),sec(method,1,[intro]),sec(background,3,[]),sec(intro,2,[])], 7491)
-   => [background-1873,intro-1249,method-624,results-3121,discussion-624]
+   => [background-1873,intro-1248,method-624,results-3122,discussion-624]
 138. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)]),claim(claim3,[ref(3)]),claim(claim4,[ref(4)]),claim(claim5,[ref(5)])])
    => []
 139. allocate([7,1], 4612)
@@ -285,13 +285,13 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 142. allocate([8,8,9,2], 991)
    => [294,294,330,73]
 143. plan([sec(discussion,4,[intro,method,results]),sec(results,1,[background]),sec(method,2,[]),sec(background,4,[intro]),sec(intro,2,[])], 6834)
-   => [method-1051,intro-1051,background-2103,results-526,discussion-2103]
+   => [method-1052,intro-1051,background-2103,results-525,discussion-2103]
 144. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)])])
    => []
 145. allocate([6,7,5], 3352)
    => [1117,1304,931]
 146. plan([sec(discussion,1,[intro,background,method,results]),sec(results,3,[]),sec(method,1,[]),sec(background,4,[intro]),sec(intro,4,[])], 2227)
-   => [results-514,method-172,intro-685,background-685,discussion-171]
+   => [results-514,method-171,intro-686,background-685,discussion-171]
 147. uncited([claim(claim1,[ref(1)])])
    => []
 148. allocate([9,9,8,9,7,7], 3910)
@@ -321,7 +321,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 160. allocate([3,3,4,5,3,6], 2647)
    => [331,331,441,551,331,662]
 161. plan([sec(discussion,3,[results]),sec(results,2,[background,method]),sec(method,3,[]),sec(background,1,[intro]),sec(intro,4,[])], 1408)
-   => [method-325,intro-433,background-108,results-217,discussion-325]
+   => [method-325,intro-434,background-108,results-216,discussion-325]
 162. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)])])
    => []
 163. allocate([9], 4372)
@@ -331,7 +331,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 165. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[]),claim(claim4,[ref(4)]),claim(claim5,[]),claim(claim6,[])])
    => [claim2,claim3,claim5,claim6]
 166. allocate([9,4,6,4,1,4], 1754)
-   => [564,251,376,250,63,250]
+   => [564,251,376,251,62,250]
 167. plan([sec(discussion,4,[intro,method,results]),sec(results,1,[]),sec(method,4,[]),sec(background,5,[intro]),sec(intro,3,[])], 1781)
    => [results-105,method-419,intro-314,discussion-419,background-524]
 168. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[])])
@@ -339,7 +339,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 169. allocate([1,3,5], 2712)
    => [301,904,1507]
 170. plan([sec(discussion,2,[background]),sec(results,5,[intro,method]),sec(method,2,[intro,background]),sec(background,5,[intro]),sec(intro,5,[])], 5811)
-   => [intro-1529,background-1529,discussion-612,method-612,results-1529]
+   => [intro-1530,background-1529,discussion-612,method-611,results-1529]
 171. uncited([claim(claim1,[ref(1)]),claim(claim2,[])])
    => [claim2]
 172. allocate([0,1,2,0,9,8], 1498)
@@ -351,7 +351,7 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 175. allocate([1,7,3,4], 317)
    => [21,148,63,85]
 176. plan([sec(discussion,5,[]),sec(results,2,[background,method]),sec(method,3,[intro,background]),sec(background,1,[intro]),sec(intro,5,[])], 6308)
-   => [discussion-1971,intro-1971,background-394,method-1183,results-789]
+   => [discussion-1972,intro-1971,background-394,method-1183,results-788]
 177. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[])])
    => [claim2,claim3]
 178. allocate([9,9,7,3,3,3], 3905)
@@ -361,27 +361,27 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 180. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)])])
    => []
 181. allocate([8,6,9], 205)
-   => [71,54,80]
+   => [72,53,80]
 182. plan([sec(discussion,2,[intro,method,results]),sec(results,1,[background]),sec(method,1,[background]),sec(background,5,[intro]),sec(intro,5,[])], 6520)
-   => [intro-2329,background-2328,results-466,method-466,discussion-931]
+   => [intro-2329,background-2329,results-466,method-465,discussion-931]
 183. uncited([claim(claim1,[ref(1)]),claim(claim2,[]),claim(claim3,[ref(3)]),claim(claim4,[ref(4)]),claim(claim5,[ref(5)])])
    => [claim2]
 184. allocate([7,6,1,6], 1712)
-   => [599,514,86,513]
+   => [599,514,85,514]
 185. plan([sec(discussion,4,[method]),sec(results,3,[]),sec(method,2,[]),sec(background,1,[]),sec(intro,4,[])], 5981)
    => [results-1282,method-854,discussion-1709,background-427,intro-1709]
 186. uncited([])
    => []
 187. allocate([9,3,0,1,3,6], 1205)
-   => [493,164,0,55,164,329]
+   => [493,165,0,54,164,329]
 188. plan([sec(discussion,2,[background]),sec(results,5,[intro]),sec(method,5,[]),sec(background,2,[]),sec(intro,3,[])], 6203)
-   => [method-1824,background-730,discussion-730,intro-1095,results-1824]
+   => [method-1825,background-730,discussion-730,intro-1094,results-1824]
 189. uncited([claim(claim1,[ref(1)]),claim(claim2,[])])
    => [claim2]
 190. allocate([2,7,6,0,1,1], 4229)
-   => [497,1741,1493,0,249,249]
+   => [498,1742,1493,0,248,248]
 191. plan([sec(discussion,5,[intro,results]),sec(results,1,[]),sec(method,1,[intro,background]),sec(background,2,[intro]),sec(intro,5,[])], 4002)
-   => [results-286,intro-1429,discussion-1429,background-572,method-286]
+   => [results-286,intro-1430,discussion-1429,background-572,method-285]
 192. uncited([])
    => []
 193. allocate([8,4,3,8,8,4], 466)
@@ -397,6 +397,6 @@ paperbot: 200 inputs and outputs, from real runs (io/ios.pl has the same as Prol
 198. uncited([claim(claim1,[ref(1)]),claim(claim2,[ref(2)])])
    => []
 199. allocate([6,2,0,3,4], 3896)
-   => [1558,520,0,779,1039]
+   => [1559,519,0,779,1039]
 200. plan([sec(discussion,3,[]),sec(results,3,[method]),sec(method,1,[]),sec(background,4,[]),sec(intro,4,[])], 6955)
-   => [discussion-1391,method-464,results-1391,background-1855,intro-1854]
+   => [discussion-1391,method-463,results-1391,background-1855,intro-1855]
