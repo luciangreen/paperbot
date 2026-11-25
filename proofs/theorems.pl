@@ -22,3 +22,6 @@ theorem(fair_order) :- forall(( weights(Ws), sum_list(Ws, S), S > 0, between(0, 
 % 4. Plans list every section after its dependencies when the dependencies have no loop.
 sections(Ss) :- maplist([N, sec(N, 1, Ds)]>>( member(Ds, [[], [x], [y], [z], [x, y], [x, z], [y, z]]), \+ memberchk(N, Ds) ), [x, y, z], Ss).
 theorem(dependencies_first) :- forall(( sections(Ss), dep_order(Ss, Ns) ), ( msort(Ns, [x, y, z]), forall(( member(sec(N, _, Ds), Ss), member(D, Ds) ), ( nth1(I, Ns, D), nth1(J, Ns, N), I < J )) )).
+
+% 5. A larger budget never gives any section fewer words (no Alabama paradox).
+theorem(house_monotone) :- forall(( weights(Ws), sum_list(Ws, S), S > 0, between(0, 19, T) ), ( T1 is T + 1, allocate(Ws, T, As), allocate(Ws, T1, Bs), maplist([A, B]>>( B >= A ), As, Bs) )).
